@@ -60,7 +60,7 @@ export class Control {
       //    /dev/video1
       //    /dev/media0
       console.log('Configuring camera on Linux...')
-      var device = '/dev/video0'
+      var device = '/dev/video0'    // FIXME: Hardcoded path
       console.log(exec('v4l2-ctl --device ' + device + ' --set-ctrl=focus_automatic_continuous=0').toString())
       exec('sleep 1')
       exec('v4l2-ctl --device ' + device + ' --set-ctrl=focus_absolute=325')

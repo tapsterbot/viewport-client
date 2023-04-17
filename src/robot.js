@@ -37,19 +37,19 @@ var calibration = portrait
 var motion = new Motion()
 
 var vision = new Vision({
-  device: 0,                  // FIXME: Hardcoded data
-  width: 2592,                // FIXME: Hardcoded data
-  height: 1944,               // FIXME: Hardcoded data
+  device: 0,                  // FIXME: Hardcoded camera device number
+  width: 2592,                // FIXME: Hardcoded camera sensor resolution width
+  height: 1944,               // FIXME: Hardcoded amera sensor resolution height
   //width: 3840,
   //height: 2160,
   corners: [
-    new cv.Point2(468,286),   // FIXME: Hardcoded data
-    new cv.Point2(465,1621),  // FIXME: Hardcoded data
-    new cv.Point2(2237,1615), // FIXME: Hardcoded data
-    new cv.Point2(2237,293)   // FIXME: Hardcoded data
+    new cv.Point2(468,286),   // FIXME: Hardcoded screen corner
+    new cv.Point2(465,1621),  // FIXME: Hardcoded screen corner
+    new cv.Point2(2237,1615), // FIXME: Hardcoded screen corner
+    new cv.Point2(2237,293)   // FIXME: Hardcoded screen corner
   ],
-  deviceWidth: 2048,          // FIXME: Hardcoded data
-  deviceHeight: 1536,         // FIXME: Hardcoded data
+  deviceWidth: 2048,          // FIXME: Hardcoded formatted image width
+  deviceHeight: 1536,         // FIXME: Hardcoded formatted image height
 })
 
 vision.view()
