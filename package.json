@@ -1,0 +1,25 @@
+{
+  "name": "tapster-vision-capture",
+  "version": "1.0.0",
+  "description": "Tapster Vision Capture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/robot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robot",
+    "tapster"
+  ],
+  "author": "Jason R. Huggins",
+  "license": "MIT",
+  "dependencies": {
+    "@u4/opencv4nodejs": "^6.5.1",
+    "mathjs": "^11.8.0",
+    "node-tesseract-ocr": "^2.2.1",
+    "serialport": "^10.5.0",
+    "uvc-control2": "github:tapsterbot/node-uvc-control",
+    "ws": "^7.5.9"
+  },
+  "type": "module"
+}
