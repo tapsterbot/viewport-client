@@ -158,3 +158,15 @@ This path can be found using v4l2-ctl:
 *Remote server URL:*
 
     116:       var url = 'wss://viewport.example.com/camera'  // FIXME: Hardcoded data
+
+
+## Run Viewport Client (Local)
+
+    node src/robot.js
+    
+## Run Viewport Client (Remote)
+This will connect over a websocket to a remotely running instance of Tapster Viewport Server
+
+*Remote server URL specified on line 116 in `src/vision.js`*
+
+    node src/robot.js --remote    
