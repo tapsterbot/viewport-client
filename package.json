@@ -1,7 +1,7 @@
 {
   "name": "tapster-vision-capture",
   "version": "1.0.0",
-  "description": "Tapster Vision Capture",
+  "description": "Tapster Viewport Client",
   "main": "index.js",
   "scripts": {
     "start": "node src/robot.js",
