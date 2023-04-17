@@ -62,11 +62,6 @@ Along with the other requried libraries, this will download and build OpenCV int
     cd viewport-client
     npm install
 
-## Build opencv4nodejs bindings
-
-    node ./node_modules/.bin/build-opencv --nobuild rebuild
-
-
 ## Change Hardcoded Variables
 There's a bunch of them, sorry. 😬 These should all be changed to environment variables or command line flags.
 
