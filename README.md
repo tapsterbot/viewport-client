@@ -52,6 +52,7 @@ Set environment variables:
 
 Create symlink:
 
+    mkdir -p ~/Projects/opencv/opencv-4.6.0-8b1ea/build/include/opencv4/opencv2
     ls -s ~/Projects/opencv/opencv-4.6.0-8b1ea/build/include/opencv4/opencv2 /usr/local/include/opencv2
 
 ## Install Viewport libraries (including OpenCV)
