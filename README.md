@@ -55,8 +55,9 @@ Create symlink:
     ls -s ~/Projects/opencv/opencv-4.6.0-8b1ea/build/include/opencv4/opencv2 /usr/local/include/opencv2
 
 ## Install Viewport libraries (including OpenCV)
-Along with the other requried libraries, this will download and build OpenCV into the folders specified above. On relatively fast computer, this will take 10-15 minutes while OpenCV is compiled.
+Along with the other requried libraries, this will download and build OpenCV into the folders specified above. On a relatively fast computer, this will take 10-15 minutes while OpenCV is compiled.
 
+    git clone https://github.com/tapsterbot/viewport-client.git
     cd viewport-client
     npm install
 
